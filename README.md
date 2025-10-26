@@ -1,9 +1,9 @@
-## URL Shortener
+# URL Shortener
 A lightweight and efficient URL Shortener built with Spring Boot.
 It provides REST APIs to shorten long URLs and redirect users via short hashes.
 The service uses a simple hash-based algorithm and can easily integrate with databases or caching layers.
 
-### Features
+## Features
 
 * Shorten long URLs into compact hash-based identifiers
 * Redirect users to original URLs via short links
@@ -12,14 +12,14 @@ The service uses a simple hash-based algorithm and can easily integrate with dat
 * Detailed logging for tracing and debugging
 * Easily extensible for analytics and rate limiting
 
-### Tech Stack
+## Tech Stack
 
 * **Java 21+**
 * **Spring Boot 3+**
 * **Maven**
 * **Slf4j / Logback** for logging
 
-### Configuration
+## Configuration
 
 You can adjust rate-limiting parameters in `application.yml`:
 
@@ -28,7 +28,7 @@ app:
   hashLength: 10 # length of generated hash
 ```
 
-### Running the Application
+## Running the Application
 
 ```bash
 mvn clean install
